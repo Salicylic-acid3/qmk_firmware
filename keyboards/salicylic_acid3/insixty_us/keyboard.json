@@ -4,6 +4,9 @@
     "maintainer": "Salicylic-acid3",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
+    "dynamic_keymap": {
+        "layer_count": 7
+    },
     "features": {
         "bootmagic": true,
         "command": false,
@@ -19,22 +22,22 @@
     "processor": "RP2040",
     "split": {
         "enabled": true,
-        "transport": {
-            "protocol": "serial"
+        "handedness": {
+            "pin": "GP11"
         },
-        "soft_serial_pin": "GP29",
         "matrix_pins": {
             "right": {
                 "cols": ["GP16", "GP17", "GP18", "GP19", "GP21", "GP23", "GP0", "GP1"],
                 "rows": ["GP2", "GP3", "GP4", "GP6", "GP5"]
             }
-        }
+        },
+        "soft_serial_pin": "GP29"
     },
     "url": "https://salicylic-acid3.hatenablog.com/",
     "usb": {
         "vid": "0x355D",
         "pid": "0x1001",
-        "device_version": "1.0.0"
+        "device_version": "0.0.1"
     },
     "layouts": {
         "LAYOUT": {
