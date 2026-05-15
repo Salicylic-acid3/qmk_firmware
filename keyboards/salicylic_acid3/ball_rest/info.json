@@ -1,0 +1,51 @@
+{
+    "manufacturer": "Salicylic-acid3",
+    "keyboard_name": "ball_rest",
+    "maintainer": "Salicylic-acid3",
+    "bootloader": "rp2040",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "encoder": true,
+        "mouse_key": true,
+        "pointing_device": true,
+        "nkro": false
+    },
+    "mouse_key": {
+        "enabled": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP16", "GP17", "GP18", "GP25", "GP24", "GP19", "GP23", "GP11"]
+        ]
+    },
+    "encoder": {
+        "enabled": true,
+        "rotary": [
+            { "pin_a": "GP20", "pin_b": "GP21", "resolution":4 }
+        ]
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0001",
+        "vid": "0x8818"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "matrix": [0, 5], "x": 0, "y": 0 },
+                { "matrix": [0, 7], "x": 1, "y": 0 },
+                { "matrix": [0, 2], "x": 0, "y": 3 },
+                { "matrix": [0, 1], "x": 0, "y": 4 },
+                { "matrix": [0, 0], "x": 0, "y": 5.5 },
+                { "matrix": [0, 6], "x": 0.75, "y": 4.5 },
+                { "matrix": [0, 3], "x": 2.25, "y": 6 },
+                { "matrix": [0, 4], "x": 2.25, "y": 6 }
+            ]
+        }
+    }
+}

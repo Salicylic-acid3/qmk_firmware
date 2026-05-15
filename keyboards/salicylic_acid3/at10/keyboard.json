@@ -1,0 +1,65 @@
+{
+    "manufacturer": "Salicylic-acid3",
+    "keyboard_name": "at10", 
+    "maintainer": "Salicylic-acid3",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": false,
+        "rgblight": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP26", "GP27", "GP28", "GP6", "GP29", "GP7", "GP9", "GP3", "GP4", "GP2"]
+        ]
+    },
+    "processor": "RP2040",
+    "url": "https://salicylic-acid3.hatenablog.com/",
+    "usb": {
+        "vid": "0x355D",
+        "pid": "0x100F",
+        "device_version": "0.0.1"
+    },
+    "rgblight": {
+        "led_count": 1,
+        "animations": {
+            "alternating": true,
+            "breathing": true,
+            "christmas": true,
+            "knight": true,
+            "rainbow_mood": true,
+            "rainbow_swirl": true,
+            "rgb_test": true,
+            "snake": true,
+            "static_gradient": true,
+            "twinkle": true
+        },
+        "sleep": true,
+        "max_brightness": 255
+    },
+    "ws2812": {
+        "pin": "GP1",
+        "driver": "vendor"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix":[0,0], "x":0, "y":0},
+                {"matrix":[0,1], "x":1, "y":0},
+                {"matrix":[0,2], "x":2, "y":0},
+                {"matrix":[0,3], "x":3, "y":0},
+                {"matrix":[0,4], "x":4, "y":0},
+                {"matrix":[0,5], "x":0, "y":1},
+                {"matrix":[0,6], "x":1, "y":1},
+                {"matrix":[0,7], "x":2, "y":1},
+                {"matrix":[0,8], "x":3, "y":1},
+                {"matrix":[0,9], "x":4, "y":1}
+            ]
+        }
+    }
+}
