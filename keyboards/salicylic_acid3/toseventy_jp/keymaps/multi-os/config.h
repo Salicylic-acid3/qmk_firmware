@@ -1,4 +1,4 @@
-/* Copyright 2025 Salicylic_acid3
+/* Copyright 2021 Salicylic_acid3
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
 
 #pragma once
 
-/* RP2040- and hardware-specific config */
-#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
-#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 500U
-#define PICO_XOSC_STARTUP_DELAY_MULTIPLIER 64
+/* Select hand configuration */
+
+#define DYNAMIC_KEYMAP_LAYER_COUNT 12
+//#define HOLD_ON_OTHER_KEY_PRESS

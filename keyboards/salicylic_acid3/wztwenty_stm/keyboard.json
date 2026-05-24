@@ -1,11 +1,10 @@
 {
     "manufacturer": "Salicylic-acid3",
-    "keyboard_name": "wztwenty", 
+    "keyboard_name": "wztwenty_stm", 
     "maintainer": "Salicylic-acid3",
     "bootloader": "stm32-dfu",
-    "diode_direction": "COL2ROW",
     "features": {
-        "bootmagic": true,
+        "bootmagic": false,
         "command": false,
         "console": false,
         "extrakey": true,
@@ -14,14 +13,14 @@
     },
     "matrix_pins": {
         "direct": [
-            ["A5", "A3", "B9", "B8", "A6", "A4", "A1", "B7", "A9", "A15", "D1", "B6", "D3", "B3", "B4", "B5"]
+            ["A5", "A3", "B9", "B8", "A6", "A4", "A1", "B7", "A9", "A15", "F0", "B6", "F1", "B3", "B4", "B5"]
         ]
     },
-    "processor": "STM32G0xx",
+    "processor": "STM32G0B1",
     "url": "https://salicylic-acid3.hatenablog.com/",
     "usb": {
         "vid": "0x355D",
-        "pid": "0x100E",
+        "pid": "0x1023",
         "device_version": "0.0.1"
     },
     "layouts": {
@@ -34,15 +33,15 @@
                 {"matrix":[0,1], "x":0, "y":1},
                 {"matrix":[0,5], "x":1, "y":1},
                 {"matrix":[0,9], "x":2, "y":1},
-                {"matrix":[0,13], "x":3, "y":1, "h":2},
+                {"matrix":[0,13], "x":3, "y":1},
                 {"matrix":[0,2], "x":0, "y":2},
                 {"matrix":[0,6], "x":1, "y":2},
                 {"matrix":[0,10], "x":2, "y":2},
-                {"matrix":[0,14], "x":0, "y":3},
-                {"matrix":[0,3], "x":1, "y":3},
-                {"matrix":[0,7], "x":2, "y":3},
-                {"matrix":[0,11], "x":3, "y":3, "h":2},
-                {"matrix":[0,15], "x":0, "y":4}
+                {"matrix":[0,14], "x":3, "y":2},
+                {"matrix":[0,3], "x":0, "y":3},
+                {"matrix":[0,7], "x":1, "y":3},
+                {"matrix":[0,11], "x":2, "y":3},
+                {"matrix":[0,15], "x":3, "y":3}
             ]
         }
     }

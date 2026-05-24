@@ -4,3 +4,4 @@ VIA_ENABLE = yes                    # Enable compatibility with VIA-protocol con
 DETECTED_HOST_OS_ENABLE = yes
 OS_DETECTION_ENABLE = yes
 
+SECURE_ENABLE = no

@@ -19,3 +19,4 @@
 /* Select hand configuration */
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 12
+//#define HOLD_ON_OTHER_KEY_PRESS
