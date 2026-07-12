@@ -1,4 +1,4 @@
-/* Copyright 2021 Salicylic_acid3
+/* Copyright 2025 Salicylic_acid3
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,6 +16,8 @@
 
 #pragma once
 
-/* Select hand configuration */
+// NumLock LED のピン定義
+#define NUM_LOCK_LED_PIN A2
 
-#define DYNAMIC_KEYMAP_LAYER_COUNT 12
+// Active Low（Low=点灯）の設定
+#define LED_PIN_ON_STATE 0

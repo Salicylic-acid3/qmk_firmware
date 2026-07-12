@@ -18,4 +18,8 @@
 
 /* Select hand configuration */
 
+#define QUICK_TAP_TERM 0
+#define TAPPING_TERM 180
 #define DYNAMIC_KEYMAP_LAYER_COUNT 12
+#define PERMISIVE_HOLD
+//#define HOLD_ON_OTHER_KEY_PRESS

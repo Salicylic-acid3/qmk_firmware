@@ -1,4 +1,4 @@
-/* Copyright 2021 Salicylic_acid3
+/* Copyright 2025 Salicylic_acid3
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,5 +17,4 @@
 #pragma once
 
 /* Select hand configuration */
-
 #define DYNAMIC_KEYMAP_LAYER_COUNT 12

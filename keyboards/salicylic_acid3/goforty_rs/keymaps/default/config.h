@@ -18,4 +18,4 @@
 
 /* Select hand configuration */
 
-#define DYNAMIC_KEYMAP_LAYER_COUNT 12
+#define DYNAMIC_KEYMAP_LAYER_COUNT 7
