@@ -1,22 +1,24 @@
-# GoFortyOrtho
+# ClickBoard Ortho
 
-![GoFortyOrtho](https://s2.booth.pm/1d33594d-0c5f-4f93-baf5-2e89e0d99afc/i/5528166/b6492818-45d6-44d5-a60c-c3066d6362d8_base_resized.jpg)
+![ClickBoard Ortho](https://cdn-ak.f.st-hatena.com/images/fotolife/S/Salicylic_acid3/20260128/20260128221731.jpg)
 
-40% Ortholinear Keyboard
+Ultra-thin ortholinear keyboard using mouse micro switches as keyswitches.
 
 * Keyboard Maintainer: [Salicylic-acid3](https://github.com/Salicylic-acid3)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Supported: RP2040
+* Hardware Availability: [Booth Shop](https://salicylic-acid3.booth.pm/items/7917899)
 
 Make example for this keyboard (after setting up your build environment):
 
-    make salicylic_acid3/goforty_ortho:default
+    make salicylic_acid3/clickboard_ortho:default
 
 Flashing example for this keyboard:
 
-    make salicylic_acid3/goforty_ortho:flash
+    make salicylic_acid3/clickboard_ortho:flash
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
+
+[Build guide](https://salicylic-acid3.hatenablog.com/entry/cb-ortho-build-guide)
 
 ## Bootloader
 
