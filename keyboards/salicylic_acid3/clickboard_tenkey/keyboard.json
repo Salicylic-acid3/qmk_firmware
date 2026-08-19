@@ -1,0 +1,53 @@
+{
+    "manufacturer": "Salicylic-acid3",
+    "keyboard_name": "clickboard_tenkey", 
+    "maintainer": "Salicylic-acid3",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": false
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP0", "GP2", "GP3", "GP4", "GP5", "GP6", "GP7", "GP8", "GP9", "GP10", "GP17", "GP16", "GP15", "GP14", "GP11", "GP20", "GP19", "GP18", "GP13"]
+        ]
+    },
+    "debounce": 20,
+    "processor": "RP2040",
+    "url": "https://salicylic-acid3.hatenablog.com/",
+    "usb": {
+        "vid": "0x355D",
+        "pid": "0x1026",
+        "device_version": "0.0.1"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix":[0,0], "x":0, "y":0},
+                {"matrix":[0,5], "x":1, "y":0},
+                {"matrix":[0,10], "x":2, "y":0},
+                {"matrix":[0,1], "x":0, "y":1},
+                {"matrix":[0,6], "x":1, "y":1},
+                {"matrix":[0,11], "x":2, "y":1},
+                {"matrix":[0,15], "x":3, "y":1},
+                {"matrix":[0,2], "x":0, "y":2},
+                {"matrix":[0,7], "x":1, "y":2},
+                {"matrix":[0,12], "x":2, "y":2},
+                {"matrix":[0,16], "x":3, "y":2},
+                {"matrix":[0,3], "x":0, "y":3},
+                {"matrix":[0,8], "x":1, "y":3},
+                {"matrix":[0,13], "x":2, "y":3},
+                {"matrix":[0,17], "x":3, "y":3},
+                {"matrix":[0,4], "x":0, "y":4},
+                {"matrix":[0,9], "x":1, "y":4},
+                {"matrix":[0,18], "x":2, "y":4},
+                {"matrix":[0,14], "x":1, "y":5}
+            ]
+        }
+    }
+}
