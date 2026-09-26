@@ -37,10 +37,24 @@ void board_init(void) {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
-        KC_P7,   KC_P8,   KC_P9, KC_PSLS,
-        KC_P4,   KC_P5,   KC_P6, KC_PAST,
-        KC_P1,   KC_P2,   KC_P3, KC_PMNS,
-        KC_P0, KC_PDOT, KC_PENT, KC_PPLS
+        KC_NUM,KC_PSLS, KC_PAST, KC_PMNS,
+        KC_P7,   KC_P8,   KC_P9, KC_PPLS,
+        KC_P4,   KC_P5,   KC_P6,
+        KC_P1,   KC_P2,   KC_P3, KC_PENT,
+        KC_P0, KC_PDOT
     )
 };
 
+bool led_update_kb(led_t led_state) {
+    bool res = led_update_user(led_state);
+    if (res) {
+        // NUM_LOCK_LED_PIN を出力モードに設定
+        gpio_set_pin_output(NUM_LOCK_LED_PIN);
+
+        // LED_PIN_ON_STATE = 0 なので
+        // NumLock ON → Low（点灯）
+        // NumLock OFF → High（消灯）
+        gpio_write_pin(NUM_LOCK_LED_PIN, !led_state.num_lock);
+    }
+    return res;
+}

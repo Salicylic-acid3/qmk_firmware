@@ -16,8 +16,9 @@
 
 #pragma once
 
-// NumLock LED のピン定義
-#define NUM_LOCK_LED_PIN A6
+/* Select hand configuration */
+#define DYNAMIC_KEYMAP_LAYER_COUNT 12
 
-// Active Low（Low=点灯）の設定
-#define LED_PIN_ON_STATE 0
+#define QUICK_TAP_TERM 0
+#define TAPPING_TERM 180
+#define PERMISIVE_HOLD

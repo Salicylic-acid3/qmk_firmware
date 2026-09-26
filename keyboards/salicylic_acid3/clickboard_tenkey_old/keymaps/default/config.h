@@ -16,8 +16,11 @@
 
 #pragma once
 
+/* Select hand configuration */
+#define DYNAMIC_KEYMAP_LAYER_COUNT 7
+
 // NumLock LED のピン定義
-#define NUM_LOCK_LED_PIN A6
+#define NUM_LOCK_LED_PIN GP1
 
 // Active Low（Low=点灯）の設定
 #define LED_PIN_ON_STATE 0
